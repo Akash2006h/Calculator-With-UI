@@ -19,5 +19,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+private slots:
+    void digit_pressed();
+    void on_pushButton_point_released();
+    void unary_operator();
 };
 #endif // MAINWINDOW_H
